@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hkakar123/RoboFriends.git/static/css/main.1568f144.css",
-    "main.js": "/hkakar123/RoboFriends.git/static/js/main.d7ccec86.js",
-    "static/js/488.231cd200.chunk.js": "/hkakar123/RoboFriends.git/static/js/488.231cd200.chunk.js",
-    "service-worker.js": "/hkakar123/RoboFriends.git/service-worker.js",
-    "static/media/SEGA.woff": "/hkakar123/RoboFriends.git/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
-    "index.html": "/hkakar123/RoboFriends.git/index.html",
-    "main.1568f144.css.map": "/hkakar123/RoboFriends.git/static/css/main.1568f144.css.map",
-    "main.d7ccec86.js.map": "/hkakar123/RoboFriends.git/static/js/main.d7ccec86.js.map",
-    "488.231cd200.chunk.js.map": "/hkakar123/RoboFriends.git/static/js/488.231cd200.chunk.js.map"
+    "main.css": "/hkakar123/RoboFriends/static/css/main.2c94faf9.css",
+    "main.js": "/hkakar123/RoboFriends/static/js/main.6e88ff64.js",
+    "static/js/488.231cd200.chunk.js": "/hkakar123/RoboFriends/static/js/488.231cd200.chunk.js",
+    "service-worker.js": "/hkakar123/RoboFriends/service-worker.js",
+    "static/media/SEGA.woff": "/hkakar123/RoboFriends/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/hkakar123/RoboFriends/index.html",
+    "main.2c94faf9.css.map": "/hkakar123/RoboFriends/static/css/main.2c94faf9.css.map",
+    "main.6e88ff64.js.map": "/hkakar123/RoboFriends/static/js/main.6e88ff64.js.map",
+    "488.231cd200.chunk.js.map": "/hkakar123/RoboFriends/static/js/488.231cd200.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1568f144.css",
-    "static/js/main.d7ccec86.js"
+    "static/css/main.2c94faf9.css",
+    "static/js/main.6e88ff64.js"
   ]
 }
