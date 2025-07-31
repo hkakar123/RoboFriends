@@ -32,7 +32,7 @@ registerRoute(
 
 // ** ADD THIS BLOCK TO CACHE API CALLS **
 registerRoute(
-  ({ url }) => url.origin === 'https://robohash.org/', 
+  ({ url }) => url.origin === 'https://robohash.org/${id}?200x200', // replace with your API origin
   new StaleWhileRevalidate({
     cacheName: 'api-cache',
     plugins: [
