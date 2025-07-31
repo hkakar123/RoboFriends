@@ -32,19 +32,19 @@ registerRoute(
   })
 );
 
-// ** ADD THIS BLOCK TO CACHE API CALLS **
 registerRoute(
-  ({ url }) => url.origin === 'https://robohash.org', // replace with your API origin
+  ({ url }) => url.origin === 'https://jsonplaceholder.typicode.com',
   new StaleWhileRevalidate({
     cacheName: 'api-cache',
     plugins: [
       new ExpirationPlugin({
         maxEntries: 50,
-        maxAgeSeconds: 5 * 60, // cache for 5 minutes
+        maxAgeSeconds: 5 * 60,
       }),
     ],
   })
 );
+
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
